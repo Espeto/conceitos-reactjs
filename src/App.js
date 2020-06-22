@@ -19,9 +19,6 @@ function App() {
       techs: ["JavaScript", "React"]
     });
 
-    console.log("ADD REPO: ");
-    console.log(result.status);
-
     const repository = result.data;
 
     setRepositories([...repositories, repository]);
